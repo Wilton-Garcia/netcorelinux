@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wilton/GitHub/netcorelinux/HelloWorld/HelloWorld.csproj": {}
+  },
+  "projects": {
+    "/home/wilton/GitHub/netcorelinux/HelloWorld/HelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wilton/GitHub/netcorelinux/HelloWorld/HelloWorld.csproj",
+        "projectName": "HelloWorld",
+        "projectPath": "/home/wilton/GitHub/netcorelinux/HelloWorld/HelloWorld.csproj",
+        "packagesPath": "/home/wilton/.nuget/packages/",
+        "outputPath": "/home/wilton/GitHub/netcorelinux/HelloWorld/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/wilton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
